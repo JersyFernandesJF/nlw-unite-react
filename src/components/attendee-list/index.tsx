@@ -6,11 +6,11 @@ import {
   MoreHorizontal,
   Search,
 } from "lucide-react";
-import { IconButton } from "./icon-button";
-import { Table } from "./table/table";
-import { TableHeader } from "./table/table-header";
-import { TableCell } from "./table/table-cell";
-import { TableRow } from "./table/table-row";
+import { IconButton } from "../icon-button";
+import { Table } from "../table/table";
+import { TableHeader } from "../table/table-header";
+import { TableCell } from "../table/table-cell";
+import { TableRow } from "../table/table-row";
 import { ChangeEvent, useEffect, useState } from "react";
 import dayjs from "dayjs";
 import "dayjs/locale/pt-br";
